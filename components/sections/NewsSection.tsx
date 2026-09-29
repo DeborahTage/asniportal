@@ -57,40 +57,40 @@ export function NewsSection() {
 
                     {/* Featured article */}
                     {featured && (
-                        <article className="lg:col-span-3 group border border-gray-100 rounded-sm overflow-hidden hover:shadow-[0_4px_20px_rgba(0,0,0,0.08)] transition-shadow duration-300 reveal">
-                            {/* YouTube embed */}
-                            <div className="h-56 relative overflow-hidden bg-gray-900">
-                                <iframe
-                                    className="absolute inset-0 w-full h-full"
-                                    src="https://www.youtube.com/embed/J1G811hRBug?rel=0"
-                                    title="Latest News INSA"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowFullScreen
+                        <article className="lg:col-span-3 group border border-gray-100 rounded-sm overflow-hidden hover:shadow-[0_4px_20px_rgba(0,0,0,0.08)] transition-shadow duration-300 reveal flex flex-col">
+                            {/* Image embed */}
+                            <div className="h-64 relative overflow-hidden bg-gray-100 shrink-0">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img 
+                                    src={`/assets/uploads/news/${featured.slug}.jpg`} 
+                                    alt={featured.title} 
+                                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
                                 />
                                 <div className="absolute top-4 left-4 z-10 pointer-events-none">
-                                    <span className="text-[10px] font-bold uppercase tracking-widest bg-white text-brand-blue px-2.5 py-1 rounded-sm">
+                                    <span className="text-[10px] font-bold uppercase tracking-widest bg-white text-brand-blue px-2.5 py-1 rounded-sm shadow-sm">
                                         {featured.category}
                                     </span>
                                 </div>
                             </div>
-                            <div className="p-6 bg-white">
+                            <div className="p-6 bg-white flex flex-col flex-grow">
                                 <div className="flex items-center gap-2 text-gray-400 text-xs mb-3">
                                     <Calendar size={11} />
                                     <time dateTime={featured.date}>{formatDate(featured.date)}</time>
-                                    <span className="text-[10px] font-semibold uppercase tracking-wide text-brand-blue ml-1">Featured</span>
+                                    <span className="text-[10px] font-semibold uppercase tracking-wide text-brand-blue ml-1 bg-blue-50 px-2 py-0.5 rounded">Featured</span>
                                 </div>
-                                <h3 className="text-gray-900 font-bold text-lg leading-snug mb-3 group-hover:text-brand-blue transition-colors duration-200">
+                                <h3 className="text-gray-900 font-bold text-xl leading-snug mb-3 group-hover:text-brand-blue transition-colors duration-200 line-clamp-2">
                                     {featured.title}
                                 </h3>
-                                <p className="text-gray-500 text-sm leading-relaxed mb-5">{featured.excerpt}</p>
-                                <Link
-                                    href={`/news/${featured.slug}`}
-                                    className="inline-flex items-center gap-1.5 text-brand-blue font-semibold text-sm hover:gap-3 transition-all duration-200"
-                                    aria-label={`Read: ${featured.title}`}
-                                >
-                                    Read Article <ArrowRight size={13} />
-                                </Link>
+                                <p className="text-gray-500 text-sm leading-relaxed mb-6 line-clamp-3">{featured.excerpt}</p>
+                                <div className="mt-auto">
+                                    <Link
+                                        href={`/news/${featured.slug}`}
+                                        className="inline-flex items-center gap-1.5 text-brand-blue font-semibold text-sm hover:gap-3 transition-all duration-200"
+                                        aria-label={`Read: ${featured.title}`}
+                                    >
+                                        Read Article <ArrowRight size={13} />
+                                    </Link>
+                                </div>
                             </div>
                         </article>
                     )}
@@ -100,24 +100,27 @@ export function NewsSection() {
                         {supporting.map((article, idx) => (
                             <article
                                 key={article.slug}
-                                className={`group border-l-2 border-brand-blue/20 hover:border-brand-blue pl-4 py-1 transition-all duration-200 reveal reveal-delay-${Math.min(idx + 1, 4)}`}
+                                className={`group flex gap-4 border border-gray-100 p-3 hover:shadow-md rounded-sm bg-white transition-all duration-200 reveal reveal-delay-${Math.min(idx + 1, 4)} h-full`}
                             >
-                                <div className="flex items-center gap-2 text-gray-400 text-xs mb-2">
-                                    <Tag size={10} />
-                                    <span>{article.category}</span>
-                                    <span className="text-gray-200">·</span>
-                                    <time dateTime={article.date}>{formatDate(article.date)}</time>
+                                <div className="w-28 h-28 shrink-0 relative overflow-hidden rounded-[2px] bg-gray-100">
+                                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                                    <img 
+                                        src={`/assets/uploads/news/${article.slug}.jpg`} 
+                                        alt={article.title} 
+                                        className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                                    />
                                 </div>
-                                <h3 className="text-gray-800 font-semibold text-sm leading-snug mb-2.5 group-hover:text-brand-blue transition-colors duration-200 line-clamp-2">
-                                    {article.title}
-                                </h3>
-                                <Link
-                                    href={`/news/${article.slug}`}
-                                    className="inline-flex items-center gap-1 text-brand-blue font-semibold text-xs hover:gap-2 transition-all duration-200"
-                                    aria-label={`Read: ${article.title}`}
-                                >
-                                    Read article <ArrowRight size={10} />
-                                </Link>
+                                <div className="flex flex-col justify-center flex-grow py-1">
+                                    <div className="flex items-center gap-2 text-brand-blue/70 text-[10px] uppercase font-bold tracking-wider mb-1.5">
+                                        <span>{article.category}</span>
+                                    </div>
+                                    <h3 className="text-gray-900 font-bold text-sm leading-snug mb-2 group-hover:text-brand-blue transition-colors duration-200 line-clamp-3">
+                                        {article.title}
+                                    </h3>
+                                    <div className="flex items-center gap-2 text-gray-400 text-[10px] mt-auto">
+                                        <time dateTime={article.date}>{formatDate(article.date)}</time>
+                                    </div>
+                                </div>
                             </article>
                         ))}
                     </div>

@@ -28,7 +28,7 @@ export default function NewsArticlePage({ params }: { params: { slug: string } }
         <>
             {/* Hero */}
             <section
-                className="relative py-20 lg:py-24 overflow-hidden"
+                className="relative py-20 lg:py-28 overflow-hidden"
                 style={{ background: 'linear-gradient(160deg, #060c1a 0%, #111827 100%)' }}
             >
                 <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(rgba(34,211,238,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(34,211,238,0.04) 1px, transparent 1px)', backgroundSize: '52px 52px' }} />
@@ -38,14 +38,14 @@ export default function NewsArticlePage({ params }: { params: { slug: string } }
                         <ChevronRight size={13} />
                         <Link href="/news" className="hover:text-white transition-colors">News</Link>
                         <ChevronRight size={13} />
-                        <span className="text-white/70 truncate max-w-[200px]">{article.title}</span>
+                        <span className="text-gray-900 truncate max-w-[200px]">{article.title}</span>
                     </nav>
                     <div className="max-w-3xl">
                         <span className="badge badge-blue mb-4">{article.category}</span>
                         <h1 className="text-white font-bold mb-5" style={{ fontSize: 'clamp(1.6rem, 4vw, 2.75rem)', lineHeight: 1.2 }}>
                             {article.title}
                         </h1>
-                        <time dateTime={article.date} className="text-white/40 text-sm">
+                        <time dateTime={article.date} className="text-gray-500 text-sm">
                             {formatDate(article.date)}
                         </time>
                     </div>
@@ -58,6 +58,12 @@ export default function NewsArticlePage({ params }: { params: { slug: string } }
                     <div className="grid lg:grid-cols-4 gap-12">
                         <div className="lg:col-span-3">
                             <div className="max-w-2xl prose prose-gray prose-lg">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img 
+                                    src={`/assets/uploads/news/${article.slug}.jpg`} 
+                                    alt={article.title} 
+                                    className="w-full h-auto aspect-video object-cover rounded-md mb-8 border border-gray-100" 
+                                />
                                 <p className="text-gray-700 leading-relaxed text-lg">{article.excerpt}</p>
                                 <p className="text-gray-500 leading-relaxed">
                                     For additional details and official statements regarding this announcement, please contact the INSA Communications Office or visit the{' '}

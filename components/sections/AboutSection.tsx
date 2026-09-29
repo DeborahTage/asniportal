@@ -27,14 +27,12 @@ export function AboutSection() {
 
                     {/* Visual side */}
                     <div className="relative order-2 lg:order-1 reveal">
-                        <div className="relative rounded-md overflow-hidden aspect-video shadow-[0_2px_20px_rgba(0,0,0,0.10)] ring-1 ring-black/5 bg-gray-900">
-                            <iframe
-                                className="absolute inset-0 w-full h-full"
-                                src="https://www.youtube.com/embed/6i0bCMZE3xc?rel=0"
-                                title="About INSA"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowFullScreen
+                        <div className="relative rounded-md overflow-hidden aspect-video shadow-[0_2px_20px_rgba(0,0,0,0.10)] ring-1 ring-black/5 bg-gray-100 group">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                                src="/assets/uploads/about-insa-building.jpg"
+                                alt="INSA Headquarters"
+                                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                             />
                         </div>
                         {/* Thin accent line */}

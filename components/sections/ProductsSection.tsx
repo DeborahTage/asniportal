@@ -30,8 +30,8 @@ export function ProductsSection() {
     return (
         <section
             ref={sectionRef}
-            className="section-py"
-            style={{ background: 'linear-gradient(180deg, #060c1a 0%, #0a1020 100%)' }}
+            className="section-py bg-slate-900"
+            
             aria-labelledby="products-heading"
         >
             <div className="container-insa">
@@ -39,8 +39,8 @@ export function ProductsSection() {
                 {/* Header */}
                 <div className="mb-14 reveal">
                     <div className="flex items-center gap-3 mb-4">
-                        <span className="w-6 h-px bg-cyan-400/70" />
-                        <span className="eyebrow text-cyan-400/80">INSA Technology</span>
+                        <span className="w-6 h-px bg-slate-400" />
+                        <span className="eyebrow text-slate-400">INSA Technology</span>
                     </div>
                     <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
                         <h2
@@ -49,7 +49,7 @@ export function ProductsSection() {
                             style={{ fontSize: 'clamp(1.75rem, 4vw, 2.75rem)', letterSpacing: '-0.03em' }}
                         >
                             Building Ethiopia&apos;s<br />
-                            <span className="text-cyan-300">Cybersecurity Ecosystem</span>
+                            <span className="text-white">Cybersecurity Ecosystem</span>
                         </h2>
                         <Link
                             href="/products"
@@ -74,22 +74,23 @@ export function ProductsSection() {
                                 style={{ background: 'rgba(255,255,255,0.03)' }}
                             >
                                 {/* hover: subtle top border */}
-                                <div className="absolute top-0 left-6 right-6 h-px bg-cyan-400/0 group-hover:bg-cyan-400/40 transition-colors duration-300" />
+                                <div className="absolute top-0 left-6 right-6 h-px bg-cyan-400/0 group-hover:bg-slate-500/50 transition-colors duration-300" />
 
                                 {/* Icon + category */}
                                 <div className="flex items-start justify-between mb-6">
                                     <div
-                                        className="w-10 h-10 rounded-sm flex items-center justify-center text-cyan-400/80 group-hover:text-cyan-300 transition-colors"
-                                        style={{ background: 'rgba(34,211,238,0.08)', border: '1px solid rgba(34,211,238,0.12)' }}
+                                        className="w-10 h-10 rounded-sm flex items-center justify-center text-slate-400 group-hover:text-white transition-colors"
+                                        style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.10)' }}
                                     >
-                                        {Icon && <Icon size={17} />}
+                                                                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                        <img src={`/assets/uploads/products/${product.slug}.png`} alt={product.name} className="w-7 h-7 object-contain" />
                                     </div>
                                     <span className="text-[10px] font-semibold uppercase tracking-widest text-white/30">
                                         {product.category}
                                     </span>
                                 </div>
 
-                                <h3 className="text-white font-bold text-base mb-2 group-hover:text-cyan-200 transition-colors duration-200">
+                                <h3 className="text-white font-bold text-base mb-2 group-hover:text-white transition-colors duration-200">
                                     {product.name}
                                 </h3>
                                 <p className="text-white/40 text-sm leading-relaxed mb-6">
@@ -98,7 +99,7 @@ export function ProductsSection() {
 
                                 <Link
                                     href={`/products/${product.slug}`}
-                                    className="inline-flex items-center gap-1.5 text-cyan-400/70 hover:text-cyan-300 font-semibold text-xs transition-colors duration-200"
+                                    className="inline-flex items-center gap-1.5 text-slate-300 hover:text-white font-semibold text-xs transition-colors duration-200"
                                     aria-label={`Learn more about ${product.name}`}
                                 >
                                     Learn more <ArrowRight size={11} />
@@ -125,7 +126,8 @@ export function ProductsSection() {
                                     className="w-7 h-7 rounded-sm flex items-center justify-center text-white/30 group-hover:text-cyan-400 transition-colors shrink-0"
                                     style={{ background: 'rgba(255,255,255,0.04)' }}
                                 >
-                                    {Icon && <Icon size={13} />}
+                                                                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                                    <img src={`/assets/uploads/products/${product.slug}.png`} alt={product.name} className="w-5 h-5 object-contain" />
                                 </div>
                                 <div>
                                     <div className="text-white/65 group-hover:text-white text-sm font-medium transition-colors leading-tight">

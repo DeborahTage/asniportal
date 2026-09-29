@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { InteriorHeroBg } from '@/components/hero/InteriorHeroBg'
 import { useState } from 'react'
 import { FileText, Download, Search, ChevronRight } from 'lucide-react'
 import { DOCUMENTS } from '@/lib/data'
@@ -28,11 +29,8 @@ export default function DocumentsPage() {
     return (
         <>
             {/* Hero */}
-            <section
-                className="relative py-20 lg:py-24 overflow-hidden"
-                style={{ background: 'linear-gradient(160deg, #060c1a 0%, #111827 100%)' }}
-            >
-                <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(rgba(34,211,238,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(34,211,238,0.04) 1px, transparent 1px)', backgroundSize: '52px 52px' }} />
+            <section className="relative py-20 lg:py-24 overflow-hidden">
+                <InteriorHeroBg />
                 <div className="relative z-10 container-insa">
                     <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-white/40 text-sm mb-8">
                         <Link href="/" className="hover:text-white transition-colors">Home</Link>

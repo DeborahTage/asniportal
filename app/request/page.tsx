@@ -24,7 +24,7 @@ export default function RequestPage() {
         <>
             {/* Hero */}
             <section
-                className="relative py-20 lg:py-24 overflow-hidden"
+                className="relative py-20 lg:py-28 overflow-hidden"
                 style={{ background: 'linear-gradient(160deg, #060c1a 0%, #111827 100%)' }}
             >
                 <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(rgba(34,211,238,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(34,211,238,0.04) 1px, transparent 1px)', backgroundSize: '52px 52px' }} />
@@ -85,7 +85,7 @@ export default function RequestPage() {
                         {/* Request form */}
                         <div className="lg:col-span-2 order-1 lg:order-2">
                             <div className="bg-white rounded-lg border border-gray-100 p-7 lg:p-10 shadow-card">
-                                <h2 className="text-gray-900 font-bold text-xl mb-2">Service Request Form</h2>
+                                <h2 className="text-white font-bold text-xl mb-2">Service Request Form</h2>
                                 <p className="text-gray-500 text-sm mb-7">Please fill out all required fields. A member of the INSA team will contact you within 3 business days.</p>
 
                                 <form className="space-y-6" aria-label="INSA service request form" noValidate>

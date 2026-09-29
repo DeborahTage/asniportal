@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { InteriorHeroBg } from '@/components/hero/InteriorHeroBg'
 import { Network, CreditCard, Shield, Layers, MessageSquare, Mail, Server, Users, ChevronRight } from 'lucide-react'
 import { PRODUCTS } from '@/lib/data'
 import { IncidentCTASection } from '@/components/sections/IncidentCTASection'
@@ -17,11 +18,8 @@ export default function ProductsPage() {
     return (
         <>
             {/* Hero */}
-            <section
-                className="relative py-20 lg:py-28 overflow-hidden"
-                style={{ background: 'linear-gradient(160deg, #060c1a 0%, #111827 100%)' }}
-            >
-                <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(rgba(34,211,238,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(34,211,238,0.04) 1px, transparent 1px)', backgroundSize: '52px 52px' }} />
+            <section className="relative py-20 lg:py-24 overflow-hidden">
+                <InteriorHeroBg />
                 <div className="relative z-10 container-insa">
                     <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-white/40 text-sm mb-8">
                         <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -35,7 +33,7 @@ export default function ProductsPage() {
                         </div>
                         <h1 className="text-white font-bold mb-5" style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', lineHeight: 1.1 }}>
                             Ethiopia's Sovereign<br />
-                            <span style={{ background: 'linear-gradient(135deg, #3b82f6, #22d3ee)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
+                            <span className="text-cyan-400">
                                 Cybersecurity Stack
                             </span>
                         </h1>
@@ -68,10 +66,11 @@ export default function ProductsPage() {
                                     <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
                                         style={{ background: 'radial-gradient(ellipse at 30% 0%, rgba(37,99,235,0.18), transparent 70%)' }} />
 
-                                    <div className="relative z-10">
-                                        <div className="w-10 h-10 rounded-md flex items-center justify-center text-cyan-400 mb-4"
-                                            style={{ background: 'rgba(34,211,238,0.1)', border: '1px solid rgba(34,211,238,0.18)' }}>
-                                            {Icon && <Icon size={18} />}
+                                    <div className="relative z-10 w-full h-full flex flex-col">
+                                        <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-5 shrink-0"
+                                            style={{ background: 'rgba(34,211,238,0.1)', border: '1px solid rgba(34,211,238,0.2)' }}>
+                                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                                            <img src={`/assets/uploads/products/${product.slug}.png`} alt={product.name} className="w-8 h-8 object-contain drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]" />
                                         </div>
 
                                         <div className="text-xs px-2 py-0.5 rounded text-cyan-400/60 font-medium mb-3 inline-block"

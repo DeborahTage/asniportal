@@ -130,6 +130,7 @@ export const PRODUCTS = [
         shortDesc: 'Secure internal government messaging application replacing commercial platforms with sovereign communications.',
         featured: true,
         icon: 'MessageSquare',
+        image: '/assets/uploads/products/sirkuni.png',
         color: 'blue',
     },
     {
@@ -148,6 +149,7 @@ export const PRODUCTS = [
         shortDesc: 'Indigenous cloud and sovereign infrastructure hosting platform for government digital services.',
         featured: false,
         icon: 'Server',
+        image: '/assets/uploads/products/debo.png',
         color: 'cyan',
     },
     {
@@ -157,6 +159,7 @@ export const PRODUCTS = [
         shortDesc: 'Enterprise Identity and Access Management platform for secure digital identity governance.',
         featured: false,
         icon: 'Users',
+        image: '/assets/uploads/products/enyuma.png',
         color: 'blue',
     },
 ]

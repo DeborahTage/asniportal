@@ -1,0 +1,220 @@
+
+> portal@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.137.195:3000
+✓ Ready in 5.6s
+✓ Running next.config.ts took 1524ms
+⚠ Slow filesystem detected. The benchmark took 1325ms. If /home/kalilinux/Documents/portal/.next/dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+- Experiments (use with caution):
+  · optimizePackageImports
+
+○ Compiling / ...
+ GET / 200 in 23.7s (next.js: 20.2s, application-code: 3.5s)
+ GET / 200 in 4.8s (next.js: 4.6s, application-code: 194ms)
+ GET /mosey/animation-KXALhH6R.js 404 in 2.5s (next.js: 1934ms, application-code: 547ms)
+ GET /mosey/component-CMpi2Tda.js 404 in 2.5s (next.js: 1965ms, application-code: 526ms)
+ GET /mosey/lottie-CS1HX2mJ.js 404 in 2.5s (next.js: 1961ms, application-code: 533ms)
+ GET /mosey/section-BOV0CRWr.js 404 in 2.5s (next.js: 1984ms, application-code: 519ms)
+ GET /mosey/mobileMenu-DS7aOPKt.js 404 in 2.5s (next.js: 2.0s, application-code: 519ms)
+ GET /mosey/trustedSection-DzsmFJZ5.js 404 in 2.5s (next.js: 2.2s, application-code: 300ms)
+ GET /mosey/complianceCta-DyroDQqv.js 404 in 405ms (next.js: 13ms, application-code: 392ms)
+ GET /mosey/benefits-rXgTh8XU.js 404 in 396ms (next.js: 51ms, application-code: 345ms)
+ GET /mosey/HomeComplianceTabItem-oUlIUkoa.js 404 in 398ms (next.js: 49ms, application-code: 349ms)
+ GET /mosey/roadmap-CCEXQxbx.js 404 in 355ms (next.js: 155ms, application-code: 200ms)
+ GET /mosey/testimonials-C_lsnue9.js 404 in 317ms (next.js: 151ms, application-code: 166ms)
+ GET /mosey/peace-BvsZCda5.js 404 in 319ms (next.js: 149ms, application-code: 169ms)
+ GET /mosey/pricing-DAWHXnzS.js 404 in 386ms (next.js: 10ms, application-code: 376ms)
+ GET /mosey/faqSection-KSE7xYmZ.js 404 in 383ms (next.js: 69ms, application-code: 314ms)
+ GET /mosey/ctaSection-BuSUB1j8.js 404 in 382ms (next.js: 70ms, application-code: 312ms)
+ GET /mosey/splide.min-BesguT4T.js 404 in 201ms (next.js: 41ms, application-code: 160ms)
+ GET /mosey/AccordionsList-knJ2rqDo.js 404 in 312ms (next.js: 119ms, application-code: 194ms)
+ GET /mosey/scrollTrigger-BYOU4Lse.js 404 in 200ms (next.js: 42ms, application-code: 158ms)
+ GET / 200 in 254ms (next.js: 55ms, application-code: 198ms)
+ GET / 200 in 130ms (next.js: 4ms, application-code: 126ms)
+ GET / 200 in 132ms (next.js: 1.9ms, application-code: 131ms)
+ GET /mosey/mobileMenu-DS7aOPKt.js 404 in 327ms (next.js: 7ms, application-code: 320ms)
+ GET /mosey/section-BOV0CRWr.js 404 in 326ms (next.js: 32ms, application-code: 294ms)
+ GET /mosey/lottie-CS1HX2mJ.js 404 in 326ms (next.js: 91ms, application-code: 234ms)
+ GET /mosey/animation-KXALhH6R.js 404 in 321ms (next.js: 136ms, application-code: 184ms)
+ GET /mosey/component-CMpi2Tda.js 404 in 322ms (next.js: 135ms, application-code: 187ms)
+ GET /mosey/trustedSection-DzsmFJZ5.js 404 in 220ms (next.js: 148ms, application-code: 72ms)
+ GET /mosey/complianceCta-DyroDQqv.js 404 in 357ms (next.js: 5ms, application-code: 352ms)
+ GET /mosey/HomeComplianceTabItem-oUlIUkoa.js 404 in 352ms (next.js: 83ms, application-code: 269ms)
+ GET /mosey/roadmap-CCEXQxbx.js 404 in 291ms (next.js: 50ms, application-code: 241ms)
+ GET /mosey/benefits-rXgTh8XU.js 404 in 293ms (next.js: 49ms, application-code: 244ms)
+ GET /mosey/peace-BvsZCda5.js 404 in 291ms (next.js: 51ms, application-code: 240ms)
+ GET /mosey/testimonials-C_lsnue9.js 404 in 132ms (next.js: 18ms, application-code: 114ms)
+ GET /mosey/pricing-DAWHXnzS.js 404 in 267ms (next.js: 6ms, application-code: 261ms)
+ GET /mosey/faqSection-KSE7xYmZ.js 404 in 302ms (next.js: 53ms, application-code: 249ms)
+ GET /mosey/ctaSection-BuSUB1j8.js 404 in 259ms (next.js: 37ms, application-code: 222ms)
+ GET /mosey/AccordionsList-knJ2rqDo.js 404 in 259ms (next.js: 39ms, application-code: 220ms)
+ GET /mosey/splide.min-BesguT4T.js 404 in 256ms (next.js: 112ms, application-code: 144ms)
+ GET /mosey/scrollTrigger-BYOU4Lse.js 404 in 58ms (next.js: 7ms, application-code: 51ms)
+ GET / 200 in 127ms (next.js: 4ms, application-code: 123ms)
+ GET / 200 in 166ms (next.js: 3ms, application-code: 162ms)
+ GET / 200 in 152ms (next.js: 2ms, application-code: 150ms)
+ GET /mosey/mobileMenu-DS7aOPKt.js 404 in 317ms (next.js: 7ms, application-code: 310ms)
+ GET /mosey/lottie-CS1HX2mJ.js 404 in 314ms (next.js: 63ms, application-code: 251ms)
+ GET /mosey/section-BOV0CRWr.js 404 in 317ms (next.js: 61ms, application-code: 256ms)
+ GET /mosey/component-CMpi2Tda.js 404 in 315ms (next.js: 65ms, application-code: 250ms)
+ GET /mosey/animation-KXALhH6R.js 404 in 320ms (next.js: 148ms, application-code: 172ms)
+ GET /mosey/trustedSection-DzsmFJZ5.js 404 in 270ms (next.js: 177ms, application-code: 92ms)
+ GET /mosey/complianceCta-DyroDQqv.js 404 in 329ms (next.js: 5ms, application-code: 324ms)
+ GET /mosey/HomeComplianceTabItem-oUlIUkoa.js 404 in 322ms (next.js: 45ms, application-code: 277ms)
+ GET /mosey/benefits-rXgTh8XU.js 404 in 284ms (next.js: 34ms, application-code: 250ms)
+ GET /mosey/roadmap-CCEXQxbx.js 404 in 284ms (next.js: 78ms, application-code: 206ms)
+ GET /mosey/peace-BvsZCda5.js 404 in 280ms (next.js: 127ms, application-code: 152ms)
+ GET /mosey/testimonials-C_lsnue9.js 404 in 279ms (next.js: 129ms, application-code: 150ms)
+ GET /mosey/pricing-DAWHXnzS.js 404 in 310ms (next.js: 6ms, application-code: 305ms)
+ GET /mosey/faqSection-KSE7xYmZ.js 404 in 313ms (next.js: 30ms, application-code: 283ms)
+ GET /mosey/ctaSection-BuSUB1j8.js 404 in 310ms (next.js: 85ms, application-code: 225ms)
+ GET /mosey/AccordionsList-knJ2rqDo.js 404 in 223ms (next.js: 50ms, application-code: 173ms)
+ GET /mosey/splide.min-BesguT4T.js 404 in 223ms (next.js: 51ms, application-code: 172ms)
+ GET /mosey/scrollTrigger-BYOU4Lse.js 404 in 182ms (next.js: 55ms, application-code: 127ms)
+ GET / 200 in 113ms (next.js: 6ms, application-code: 107ms)
+ GET / 200 in 130ms (next.js: 4ms, application-code: 127ms)
+ GET / 200 in 121ms (next.js: 3ms, application-code: 118ms)
+ GET /mosey/mobileMenu-DS7aOPKt.js 404 in 574ms (next.js: 17ms, application-code: 557ms)
+ GET /mosey/section-BOV0CRWr.js 404 in 560ms (next.js: 86ms, application-code: 474ms)
+ GET /mosey/lottie-CS1HX2mJ.js 404 in 528ms (next.js: 57ms, application-code: 470ms)
+ GET /mosey/component-CMpi2Tda.js 404 in 529ms (next.js: 58ms, application-code: 471ms)
+ GET /mosey/trustedSection-DzsmFJZ5.js 404 in 527ms (next.js: 62ms, application-code: 465ms)
+ GET /mosey/animation-KXALhH6R.js 404 in 530ms (next.js: 60ms, application-code: 470ms)
+ GET /mosey/complianceCta-DyroDQqv.js 404 in 404ms (next.js: 16ms, application-code: 387ms)
+ GET /mosey/HomeComplianceTabItem-oUlIUkoa.js 404 in 396ms (next.js: 86ms, application-code: 311ms)
+ GET /mosey/benefits-rXgTh8XU.js 404 in 394ms (next.js: 171ms, application-code: 223ms)
+ GET /mosey/roadmap-CCEXQxbx.js 404 in 385ms (next.js: 204ms, application-code: 181ms)
+ GET /mosey/testimonials-C_lsnue9.js 404 in 385ms (next.js: 207ms, application-code: 179ms)
+ GET /mosey/peace-BvsZCda5.js 404 in 388ms (next.js: 206ms, application-code: 182ms)
+ GET /mosey/faqSection-KSE7xYmZ.js 404 in 337ms (next.js: 11ms, application-code: 327ms)
+ GET /mosey/pricing-DAWHXnzS.js 404 in 339ms (next.js: 9ms, application-code: 330ms)
+ GET /mosey/ctaSection-BuSUB1j8.js 404 in 333ms (next.js: 106ms, application-code: 227ms)
+ GET /mosey/AccordionsList-knJ2rqDo.js 404 in 333ms (next.js: 109ms, application-code: 224ms)
+ GET /mosey/splide.min-BesguT4T.js 404 in 230ms (next.js: 106ms, application-code: 124ms)
+ GET /mosey/scrollTrigger-BYOU4Lse.js 404 in 221ms (next.js: 139ms, application-code: 82ms)
+✓ Compiled in 35.3s
+✓ Compiled in 1838ms
+✓ Compiled in 0ms
+ GET / 200 in 22.8s (next.js: 18.7s, application-code: 4.1s)
+ GET / 200 in 531ms (next.js: 6ms, application-code: 525ms)
+ GET / 200 in 396ms (next.js: 8ms, application-code: 388ms)
+ GET /about 200 in 3.2s (next.js: 3.0s, application-code: 155ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] Image with src "/leaders/tigist.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/daniel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/hanibal.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/yodahe.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/aster.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+ GET / 200 in 852ms (next.js: 734ms, application-code: 118ms)
+ GET /about 200 in 102ms (next.js: 14ms, application-code: 88ms)
+✓ Finished writing to filesystem cache in 27.3s
+✓ Finished writing to filesystem cache in 11.8s
+✓ Compiled in 310.6s
+○ Compiling /about ...
+✓ Finished writing to filesystem cache in 15.3s
+✓ Finished writing to filesystem cache in 16.7s
+ GET /about 200 in 8.1min (next.js: 5.0min, application-code: 3.1min)
+ GET /about 200 in 101s (next.js: 7.2s, application-code: 94s)
+⚠ Blocked cross-origin request to Next.js dev resource /_next/hmr from "127.0.0.1".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['127.0.0.1'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /about 200 in 3.6s (next.js: 1658ms, application-code: 1950ms)
+ GET /about 200 in 10.3s (next.js: 2.1s, application-code: 8.3s)
+ GET /about 200 in 23.7s (next.js: 11.0s, application-code: 12.7s)
+ GET /about 200 in 12.9s (next.js: 4.3s, application-code: 8.6s)
+ GET /about 200 in 3.6s (next.js: 1430ms, application-code: 2.2s)
+ GET /about 200 in 2.5s (next.js: 1264ms, application-code: 1204ms)
+ GET /about 200 in 1096ms (next.js: 742ms, application-code: 355ms)
+[browser] Image with src "/leaders/tigist.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/daniel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/aster.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/yodahe.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/hanibal.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+✓ Finished writing to filesystem cache in 36.1s
+✓ Finished writing to filesystem cache in 10.2s
+ GET / 200 in 5.2s (next.js: 2.5s, application-code: 2.7s)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+✓ Finished writing to filesystem cache in 22.2s
+ GET /about 200 in 2.4min (next.js: 2.4min, application-code: 144ms)
+ GET /about 200 in 2.4min (next.js: 2.4min, application-code: 1796ms)
+ GET /about 200 in 3.5min (next.js: 3.5min, application-code: 196ms)
+ GET /about 200 in 287ms (next.js: 88ms, application-code: 199ms)
+ GET /about 200 in 1052ms (next.js: 5ms, application-code: 1047ms)
+✓ Finished writing to filesystem cache in 16.0s
+ GET /about 200 in 20.4s (next.js: 3.8s, application-code: 16.6s)
+ GET / 200 in 10.2s (next.js: 5.2s, application-code: 4.9s)
+ GET /about 200 in 381ms (next.js: 246ms, application-code: 136ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] Image with src "/leaders/daniel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/hanibal.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/aster.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/yodahe.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/tigist.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+✓ Finished writing to filesystem cache in 2.3min
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /about 200 in 4.2min (next.js: 4.1min, application-code: 7.0s)
+ GET /about 200 in 4.7min (next.js: 4.6min, application-code: 5.3s)
+ GET /about 200 in 4.7s (next.js: 441ms, application-code: 4.3s)
+ GET /about 200 in 5.8s (next.js: 456ms, application-code: 5.3s)
+[browser] Image with src "/leaders/tigist.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/daniel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/aster.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/yodahe.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/hanibal.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+✓ Compiled in 28.7s
+ GET /about 200 in 238ms (next.js: 96ms, application-code: 142ms)
+ GET /about 200 in 799ms (next.js: 199ms, application-code: 600ms)
+[browser] Image with src "/leaders/tigist.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/daniel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/yodahe.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/aster.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/leaders/hanibal.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+ GET / 200 in 9.5s (next.js: 8.1s, application-code: 1378ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /about 200 in 527ms (next.js: 6ms, application-code: 521ms)
+○ Compiling /services ...
+ GET /services 200 in 57s (next.js: 57s, application-code: 48ms)
+○ Compiling /products ...
+ GET /products 200 in 4.4s (next.js: 4.3s, application-code: 68ms)
+ GET /services 200 in 148ms (next.js: 11ms, application-code: 137ms)
+ GET /products 200 in 72ms (next.js: 23ms, application-code: 49ms)
+ GET /news 200 in 2.1s (next.js: 583ms, application-code: 1559ms)
+ GET / 200 in 1092ms (next.js: 942ms, application-code: 150ms)
+ GET / 200 in 604ms (next.js: 257ms, application-code: 347ms)
+✓ Compiled in 37.9s
+ GET /about 200 in 1881ms (next.js: 1737ms, application-code: 144ms)
+ GET /services 200 in 100ms (next.js: 43ms, application-code: 57ms)
+ GET /products 200 in 300ms (next.js: 195ms, application-code: 105ms)
+ GET /news 200 in 557ms (next.js: 104ms, application-code: 453ms)
+ GET /products 200 in 102ms (next.js: 10ms, application-code: 92ms)
+ GET /news 200 in 201ms (next.js: 4ms, application-code: 197ms)
+✓ Compiled in 47.1s
+ GET /news 200 in 1197ms (next.js: 668ms, application-code: 529ms)
+ GET /about 200 in 968ms (next.js: 542ms, application-code: 425ms)
+ GET /services 200 in 1678ms (next.js: 646ms, application-code: 1032ms)
+ GET /products 200 in 1438ms (next.js: 1080ms, application-code: 358ms)
+ GET / 200 in 457ms (next.js: 104ms, application-code: 353ms)
+ GET / 200 in 945ms (next.js: 70ms, application-code: 875ms)
+✓ Finished writing to filesystem cache in 10.3s
+✓ Compiled in 36.3s
+ GET /about 200 in 1437ms (next.js: 418ms, application-code: 1019ms)
+ GET /services 200 in 1141ms (next.js: 322ms, application-code: 819ms)
+ GET /products 200 in 607ms (next.js: 220ms, application-code: 387ms)
+ GET /news 200 in 875ms (next.js: 394ms, application-code: 481ms)
+ GET /products 200 in 136ms (next.js: 14ms, application-code: 122ms)
+○ Compiling /documents ...
+ GET / 200 in 1964ms (next.js: 515ms, application-code: 1448ms)
+ GET /documents 200 in 57s (next.js: 55s, application-code: 1546ms)
+[?25h

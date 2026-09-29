@@ -16,25 +16,25 @@ export default function ReportIncidentPage() {
                 className="relative py-20 lg:py-24 overflow-hidden"
                 style={{ background: 'linear-gradient(135deg, #0a0500 0%, #1a0808 50%, #111827 100%)' }}
             >
-                <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(rgba(220,38,38,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(220,38,38,0.05) 1px, transparent 1px)', backgroundSize: '52px 52px' }} />
+                
                 <div
                     className="absolute left-0 top-1/2 -translate-y-1/2 w-80 h-80 rounded-full pointer-events-none"
                     style={{ background: 'radial-gradient(circle, rgba(220,38,38,0.12), transparent 70%)' }}
                 />
                 <div className="relative z-10 container-insa">
-                    <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-white/40 text-sm mb-8">
-                        <Link href="/" className="hover:text-white transition-colors">Home</Link>
+                    <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-gray-500 text-sm mb-8">
+                        <Link href="/" className="hover:text-gray-900 transition-colors">Home</Link>
                         <ChevronRight size={13} />
-                        <span className="text-white/70">Report Incident</span>
+                        <span className="text-gray-900">Report Incident</span>
                     </nav>
                     <div className="flex items-center gap-3 mb-4">
                         <AlertTriangle size={20} className="text-brand-red" />
                         <span className="eyebrow text-brand-red">Cyber Incident Reporting</span>
                     </div>
-                    <h1 className="text-white font-bold mb-5" style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', lineHeight: 1.1 }}>
+                    <h1 className="text-gray-900 font-bold mb-5" style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', lineHeight: 1.1 }}>
                         Report a<br />Cyber Incident
                     </h1>
-                    <p className="text-white/60 text-body-lg max-w-lg">
+                    <p className="text-gray-600 text-body-lg max-w-lg">
                         Report cybersecurity incidents, threats, and vulnerabilities to EthioCERT — Ethiopia's national Computer Emergency Response Team.
                     </p>
                 </div>
@@ -119,8 +119,8 @@ export default function ReportIncidentPage() {
                                         <Shield size={22} className="text-brand-red" />
                                     </div>
                                     <div>
-                                        <h2 className="text-white font-bold text-lg mb-2">Report via EthioCERT Portal</h2>
-                                        <p className="text-white/55 text-sm leading-relaxed mb-5">
+                                        <h2 className="text-gray-900 font-bold text-lg mb-2">Report via EthioCERT Portal</h2>
+                                        <p className="text-gray-900/55 text-sm leading-relaxed mb-5">
                                             The primary incident reporting channel is the EthioCERT portal — Ethiopia's national Computer Emergency Response Team. EthioCERT operates 24/7 and will follow up on your report.
                                         </p>
                                         <a

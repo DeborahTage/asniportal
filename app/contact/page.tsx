@@ -13,7 +13,7 @@ export default function ContactPage() {
         <>
             {/* Hero */}
             <section
-                className="relative py-20 lg:py-24 overflow-hidden"
+                className="relative py-20 lg:py-28 overflow-hidden"
                 style={{ background: 'linear-gradient(160deg, #060c1a 0%, #111827 100%)' }}
             >
                 <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(rgba(34,211,238,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(34,211,238,0.04) 1px, transparent 1px)', backgroundSize: '52px 52px' }} />
@@ -45,7 +45,7 @@ export default function ContactPage() {
                                     { icon: Clock, label: 'Office Hours', value: INSA_INFO.contact.hours, href: null },
                                 ].map(({ icon: Icon, label, value, href }) => (
                                     <div key={label} className="flex items-start gap-4 p-5 border border-gray-100 rounded-lg hover:border-brand-blue/30 transition-colors group">
-                                        <div className="w-10 h-10 rounded-md bg-brand-blue/8 flex items-center justify-center text-brand-blue shrink-0 group-hover:bg-brand-blue group-hover:text-white transition-all">
+                                        <div className="w-10 h-10 rounded-md bg-brand-blue/8 flex items-center justify-center text-brand-blue shrink-0 group-hover:bg-brand-blue group-hover:text-gray-900 transition-all">
                                             <Icon size={17} />
                                         </div>
                                         <div>
@@ -89,7 +89,7 @@ export default function ContactPage() {
                             {/* Emergency */}
                             <div className="mt-8 rounded-lg border border-brand-red/20 bg-red-50 p-6">
                                 <h3 className="text-brand-red font-semibold text-sm mb-2">Cyber Incident Emergency</h3>
-                                <p className="text-gray-600 text-sm mb-4">For urgent cybersecurity incidents, report directly to EthioCERT — Ethiopia's national emergency response team.</p>
+                                <p className="text-white/60 text-sm mb-4">For urgent cybersecurity incidents, report directly to EthioCERT — Ethiopia's national emergency response team.</p>
                                 <a
                                     href={INSA_INFO.reportUrl}
                                     target="_blank"

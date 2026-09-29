@@ -70,7 +70,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
                     <div className="grid lg:grid-cols-3 gap-12">
                         <div className="lg:col-span-2">
                             <h2 className="text-h3 text-gray-900 mb-5">Service Overview</h2>
-                            <p className="text-gray-600 leading-relaxed text-body-lg mb-8">{service.fullDesc}</p>
+                            <p className="text-white/60 leading-relaxed text-body-lg mb-8">{service.fullDesc}</p>
 
                             <div className="p-6 bg-gray-50 rounded-lg border border-gray-200">
                                 <h3 className="text-gray-900 font-semibold text-sm mb-3">Request This Service</h3>
